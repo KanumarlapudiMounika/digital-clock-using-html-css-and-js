@@ -1,0 +1,63 @@
+head,body{
+    padding:300px;
+    margin:100px;
+    padding-right:700px;
+    padding-left: 100px;
+    text-align: center;
+    background-color:rgb(0, 0, 15);
+    background-image: url("https://images.unsplash.com/photo-1614850523011-8f49ffc73908?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background:image 120px;
+    font-size: medium;
+    background-position: cover;
+    color: beige;
+    font-size:xx-large;
+}
+.container{
+    width: 900px;
+    height:700px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-40px,-50px);
+    padding-left:-500px;
+    padding-right:400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+
+
+}
+.digi{
+    width: 300px;
+    height: 155px;
+    background:rgba(54, 192, 237, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digi span{
+    font-size: 40px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.digi span::after{
+    font-size: 16px;
+    position: absolute;
+    bottom: -15px;
+    left: 60px;
+    transform: translate(-50px);
+}
+#hrs::after{
+    content:'HOURS';
+}
+#min::after{
+     content:'MINS';
+}
+#sec::after{
+    content:'SEC';
+}
